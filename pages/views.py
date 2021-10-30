@@ -1,9 +1,13 @@
 from django.views.generic import TemplateView
 
 
-class HomePageVies(TemplateView):
-    template_name = 'home.html'
+class Picture1(TemplateView):
+    template_name = 'Picture1.html'
 
 
-class AboutPageView(TemplateView):
-    template_name = 'about.html'
+class Picture2(TemplateView):
+    template_name = 'picture2.html'
+
+
+class Picture3(TemplateView):
+    template_name = 'picture3.html'

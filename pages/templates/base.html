@@ -3,8 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <a href="{% url 'home' %}">Home</a> | <a href="{% url 'about' %}">About</a>
-
+    <div>
+    <center><button style="padding: 10px; border-radius: 15px" class="button"><a href="{% url 'picture1' %}">Picture1</a></button>
+    <button style="padding: 10px; border-radius: 15px" class="button"><a href="{% url 'picture2' %}">Picture2</a></button>
+    <button style="padding: 10px; border-radius: 15px" class="button"><a href="{% url 'picture3' %}">Picture3</a></button></center>
+    </div>
 </head>
 <body>
     {% block content %}
